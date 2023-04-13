@@ -4,8 +4,8 @@
     "logo": "https://te.legra.ph/file/f7bb87698b34dd8ba46c1.jpg",
     "keywords": ["telegram", "auto-filter"],
     "stack": "container",
-    "website": "https://github.com/Guardianff/PROFESSOR-BOT",
-    "repository": "https://github.com/Guardianff/PROFESSOR-BOT",
+    "website": "https://github.com/Guardianff/ZIA-BOT",
+    "repository": "https://github.com/Guardianff/ZIA-BOT",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
