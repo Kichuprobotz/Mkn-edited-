@@ -25,6 +25,7 @@
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "-1001967161880 -1001783384740",
             "required": false
         },
         "ADMINS": {
@@ -152,6 +153,7 @@
         },
         "RemoveBG_API": {
             "description": "background remover website api key. get from https://www.remove.bg/b/background-removal-api",
+            "value": "CBMswVe75zMdmHRgKrJYLWxj",
             "required": false 
         },
         "P_TTI_SHOW_OFF": { 
