@@ -348,7 +348,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             if int(req) not in [query.from_user.id, 0]: return await query.answer(BUTTON_LOCK_TEXT.format(query=query.from_user.first_name), show_alert=True)
 
         search = temp.BUTTONS.get(key)
-        if not search: return await query.answer("You are using one of my old messages, please send the request again.", show_alert=False)
         
         files = await get_all_files(search)
         
